@@ -1,0 +1,375 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "f99d3454-5ba8-4e63-bb34-eb18d7b16f68": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 21,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "f99d3454-5ba8-4e63-bb34-eb18d7b16f68"
+      ],
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#4994bf",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "71609025-f744-4b4c-b0a8-a2ebc1db9a09": {
+      "type": "feature_columns",
+      "blocks": {
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Carbon_Filter.png",
+            "title": "Phoenix Gravity Water Filter System With Carbon Cartridge",
+            "text": "",
+            "button_label": "View Instructions",
+            "button_link": "https://cdn.shopify.com/s/files/1/0735/1821/9557/files/Phoenix_Gravit__Water_Filter_System_Carbon_catridge.pdf?v=1693476935",
+            "open_link": "_blank",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Carbon_Spirit.png",
+            "title": "Phoenix Gravity Water Filter System With Spirit Cartridge",
+            "text": "",
+            "button_label": "View Instructions",
+            "button_link": "https://cdn.shopify.com/s/files/1/0735/1821/9557/files/Phoenix_Gravity_Water_Filter_System_Spirit_instruction.pdf?v=1693476936",
+            "open_link": "_blank",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Carbon_Carbon.png",
+            "title": "Phoenix Gravity 1-Litre Water Filter System",
+            "text": "",
+            "button_label": "View Instructions",
+            "button_link": "https://cdn.shopify.com/s/files/1/0735/1821/9557/files/Phoenix_Gravity_1Litre_instruction.pdf?v=1693476936",
+            "open_link": "_blank",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "cdfd1422-e1be-4d35-89b8-d0c080067acc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Postreat.png",
+            "title": "Phoenix Gravity POSTreat Fluoride Filter Cartridge",
+            "text": "",
+            "button_label": "View Instructions",
+            "button_link": "https://cdn.shopify.com/s/files/1/0735/1821/9557/files/POSTreat__Folding___instructions.pdf?v=1693476936",
+            "open_link": "_blank",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "db4d3073-281b-4fed-bef8-e3e47899888b": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "905d6c05-049f-4244-905d-6470a2fa27ca": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-1",
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-2",
+        "template--20468443545893__71609025-f744-4b4c-b0a8-a2ebc1db9a09-text_block-3",
+        "cdfd1422-e1be-4d35-89b8-d0c080067acc",
+        "db4d3073-281b-4fed-bef8-e3e47899888b",
+        "905d6c05-049f-4244-905d-6470a2fa27ca"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 16,
+        "fs_title_mb": 20,
+        "fs_text_mb": 16,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ".t4s-feature-columns__title a:hover{\ncolor:#2f2953;\n}"
+      }
+    },
+    "05daafae-2418-4155-9d26-c2e69400374b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-custom_text-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Be the first to know.",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 40,
+            "text_lh": 21,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": true,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 26,
+            "text_lh_mb": 42,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        },
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-custom_text-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Sign up to say hello to healthier hydration.",
+            "remove_br_tag": false,
+            "tag": "h5",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 50,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": true,
+            "text_mgb": 30,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "form_width": 600,
+            "form_width_mb": 0,
+            "newl_des": "8",
+            "news_align": "center",
+            "newl_size": "medium",
+            "btn_icon": false,
+            "input_cl": "#ffffff",
+            "border_cl": "#ffffff",
+            "btn_cl": "#2f2953",
+            "btn_bg_cl": "#ffffff",
+            "btn_hover_cl": "#2f2953",
+            "btn_hover_bg_cl": "#ffffff",
+            "hidden_mobile": false,
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-custom_text-1",
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-custom_text-2",
+        "template--21767349403941__05daafae-2418-4155-9d26-c2e69400374b-newsletter-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "all-center",
+        "news_overlay": "rgba(0,0,0,0)",
+        "news_overlay_opacity": 0,
+        "layout": "t4s-se-container",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "image_bg": "shopify://shop_images/news.jpg",
+        "parallax": false,
+        "mg": ",,50px,",
+        "pd": "300px,,100px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "71609025-f744-4b4c-b0a8-a2ebc1db9a09",
+    "05daafae-2418-4155-9d26-c2e69400374b"
+  ]
+}

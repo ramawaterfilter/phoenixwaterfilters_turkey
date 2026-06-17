@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "c04f75e6-dfcb-4b9e-a3e7-ca7583d285b5": {
+          "type": "1",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 40,
+            "text_lh": 56,
+            "text_fw": 300,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 35,
+            "text_lh_mb": 46,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        },
+        "7cd255d5-40e9-4da7-8d3d-be1407a27726": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#ffffff",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "c04f75e6-dfcb-4b9e-a3e7-ca7583d285b5",
+        "7cd255d5-40e9-4da7-8d3d-be1407a27726"
+      ],
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": false,
+        "parallax": false,
+        "color": "#0375b4",
+        "overlay": 100,
+        "padding": 14,
+        "paddingmb": 6,
+        "mg_b": 0,
+        "mg_bmb": 0,
+        "content_align": "t4s-text-start",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-store-locator",
+      "blocks": {
+        "2ce63f38-0ba2-4853-852b-537b0fe2eb33": {
+          "type": "store",
+          "settings": {
+            "heading": "UK (Branch Office)",
+            "latitude": "51.568780",
+            "longitude": "0.013500",
+            "content": "<p>Phoenix Water Filters Ltd</p><p>Carlton House, Aylmer Road, London, E11 3AD, United Kingdom</p>"
+          }
+        },
+        "ebe283f8-17e8-4ea4-a66c-edb505cbef27": {
+          "type": "store",
+          "settings": {
+            "heading": "India (Headquarters)",
+            "latitude": "13.042580",
+            "longitude": "80.268010",
+            "content": "<p>Rama Pure Water Pvt Ltd </p><p>95, Royapettah High Road, Mylapore,Chennai - 600004, INDIA</p>"
+          }
+        }
+      },
+      "block_order": [
+        "2ce63f38-0ba2-4853-852b-537b0fe2eb33",
+        "ebe283f8-17e8-4ea4-a66c-edb505cbef27"
+      ],
+      "settings": {
+        "layout": "t4s-se-container",
+        "access_token": "pk.eyJ1Ijoic2FtMjAyMjMiLCJhIjoiY2xvOGppbDdwMDJlMDJrbm5mdjBsdGtxaiJ9.-OfT_Y3f3WYnsv0Vzs-UTw",
+        "enable_searchbox": true,
+        "style_map": "streets",
+        "zoom": 4,
+        "pitch": 7,
+        "color_marker": "#2f2953",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "7c23d348-c07b-438d-b71c-cb4e62c593af": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<h2 style=\"text-align:center\">Phoenix water filter is available in multiple countries across the world.</h2>\n<h5 style=\"text-align:center\">UK, USA, India, Canada, Germany, Poland, France, Spain, Italy,\nTurkey,Saudi Arabia, UAE, Singapore and Japan</h5>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6b75c11e-692f-4e43-8418-afb119eae14b": {
+      "type": "contact-form",
+      "blocks": {
+        "template--21119312789797__6b75c11e-692f-4e43-8418-afb119eae14b-bl_form-1": {
+          "type": "bl_form",
+          "settings": {
+            "heading": "DROP US A LINE",
+            "enable_phone": true,
+            "enable_full_btn": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "custom1"
+          }
+        },
+        "template--21119312789797__6b75c11e-692f-4e43-8418-afb119eae14b-bl_info-1": {
+          "type": "bl_info",
+          "settings": {
+            "heading": "CONTACT INFORMATION",
+            "text": "<p>For customer support, contact:</p><p><i class=\"las la-phone fs__16\"></i> +4420 8058 5660</p><p><i class=\"las la-envelope fs__16\"></i> hello@phoenixwaterfilters.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21119312789797__6b75c11e-692f-4e43-8418-afb119eae14b-bl_form-1",
+        "template--21119312789797__6b75c11e-692f-4e43-8418-afb119eae14b-bl_info-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "7c23d348-c07b-438d-b71c-cb4e62c593af",
+    "6b75c11e-692f-4e43-8418-afb119eae14b"
+  ]
+}

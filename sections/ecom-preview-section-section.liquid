@@ -1,0 +1,658 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2025-05-29 23:29:15
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ 
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.9" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.9" /></noscript>
+{%- assign headless = true -%}{%- render "ecom_theme_helper" -%}{%capture section_id %}ecom-preview-section-section{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-preview-template-section.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-preview-template-section.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="preview-template-section";
+ window.EComposer.SECTION = {"template_id":"preview-template-section","title":"announcement bar","type":"section","slug":"ecom-preview-section","plan_id":4};
+ </script>
+<div class="ecom-builder" id="ecom-preview-section"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-5gixy19qz5g hide-on-screen hide-on-mobile" data-id="ecom-5gixy19qz5g" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core ecom-bb0tg7nibz"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-3hjmlon3be1" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1">
+ <style>
+ .twentyoff {
+ width: 3%
+ }
+
+
+ .flash-sale-text1 {
+ display: flex;
+ flex-direction: column;
+ margin-left: -2px;
+ font-family: "DM Sans", sans-serif;
+ font-size:18px!important;
+ font-weight:600;
+
+}
+
+.limit_stock {
+ font-size: 13px !important;
+ font-weight: normal;
+ color: #fff;
+ margin-top: 2px;
+}
+
+@media (max-width: 480px) {
+ .limit_stock {
+ font-size: 10px !important;
+ }
+}
+
+
+ .phoenix-footer-timer {
+ position: fixed !important;
+ bottom: 0 !important;
+ left: 0 !important;
+ width: 100% !important;
+ background: linear-gradient(135deg, #3968E6, #11214D) !important;
+ color: white !important;
+ padding: 8px 10px !important;
+ z-index: 1050 !important;
+ box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2) !important;
+ font-family: 'DM Sans', sans-serif !important;
+ }
+
+ .phoenix-timer-container {
+ display: flex !important;
+ flex-direction: row !important; /* One row */
+ align-items: center !important;
+ justify-content: center !important;
+ gap: 16px !important; /* space between groups */
+ max-width: 100% !important;
+ overflow-x: auto !important;
+ scrollbar-width: none !important;
+ -ms-overflow-style: none !important;
+ }
+
+ .phoenix-timer-container::-webkit-scrollbar {
+ display: none !important;
+ }
+
+ .phoenix-main-row {
+ display: flex !important;
+ flex-direction: row !important; /* everything inline */
+ align-items: center !important;
+ justify-content: center !important;
+ gap: 16px !important;
+ flex-wrap: nowrap !important;
+ width: 100%;
+ }
+
+ .phoenix-coupon-row {
+ display: flex !important;
+ flex-direction: row !important;
+ align-items: center !important;
+ gap: 6px !important;
+ white-space: nowrap !important;
+ margin: 0 !important;
+}
+
+
+
+ .phoenix-flash-badge {
+ display: flex !important;
+ align-items: center !important;
+ gap: 6px !important;
+ }
+
+ .phoenix-product-text {
+ 
+ 
+ white-space: nowrap !important;
+ font-size: 14px !important;
+ }
+
+ .phoenix-countdown {
+ display: flex !important;
+ align-items: center !important;
+ gap: 2px !important;
+ font-size: 14px !important;
+ white-space: nowrap !important;
+ }
+
+ .phoenix-time-unit {
+ text-align: center !important;
+ display: flex !important;
+ flex-direction: column !important;
+ align-items: center !important;
+ min-width: 30px !important;
+ }
+
+ .phoenix-time-number {
+ font-weight: bold !important;
+ font-size: 14px !important;
+ background-color: rgba(255, 255, 255, 0.2) !important;
+ border-radius: 3px !important;
+ padding: 1px 3px !important;
+ min-width: 22px !important;
+ text-align: center !important;
+ }
+
+ .phoenix-time-label {
+ font-size: 10px !important;
+ }
+
+ .phoenix-separator {
+ font-weight: bold !important;
+ font-size: 14px !important;
+ margin: 0 -1px !important;
+ }
+
+ .phoenix-buy-now-btn1 {
+ white-space: nowrap !important;
+ flex-shrink: 0 !important;
+ background-color: #FEB800 !important;
+ color: #000 !important;
+ padding: 10px 15px;
+ font-weight: 500 !important;
+ text-decoration: none;
+ border-radius: 4px !important;
+ transition: background 0.3s ease !important;
+ white-space: nowrap !important;
+ font-size: 14px !important;
+ }
+
+ .phoenix-buy-now-btn:hover {
+ background-color: #06d6a0 !important;
+ }
+
+ .phoenix-coupon-box {
+ border: 2px dashed #ccc;
+ padding: 6px 12px;
+ border-radius: 6px;
+ color: #FEB800;
+ font-weight: bold;
+ letter-spacing: 1px;
+ background: transparent;
+ }
+
+ #couponCode {
+ color: #FEB800;
+ }
+
+ /* Mobile optimizations */
+ @media (max-width: 768px) {
+ .phoenix-footer-timer {
+ padding: 6px 8px !important;
+ }
+
+ .phoenix-flash-badge {
+ font-size: 12px !important;
+ padding: 2px 4px !important;
+ }
+
+ .phoenix-product-text {
+ font-size: 11px !important;
+ }
+
+ .phoenix-time-unit {
+ min-width: 24px !important;
+ }
+
+ .phoenix-time-number {
+ font-size: 12px !important;
+ min-width: 18px !important;
+ }
+
+ .phoenix-time-label {
+ font-size: 8px !important;
+ }
+
+ .phoenix-buy-now-btn1 {
+ font-size: 12px !important;
+ padding: 3px 8px !important;
+ }
+ }
+
+ @media (max-width: 480px) {
+ .phoenix-footer-timer {
+ padding: 5px 6px !important;
+ margin-bottom: 56px !important;
+ }
+
+ .phoenix-main-row {
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+
+ .phoenix-coupon-row {
+ display: flex;
+ margin-top: 4px;
+ }
+
+ .phoenix-product-text {
+ font-size: 10px !important;
+ }
+
+ .phoenix-coupon-box {
+ font-size: 12px;
+ margin-top: 2px;
+ }
+
+ .flashsale {
+ width: 18% !important;
+ }
+
+ .limit_stock {
+ font-size: 8px !important;
+ }
+ }
+ </style>
+
+
+<div class="phoenix-footer-timer">
+ <div class="phoenix-timer-container">
+ <div class="phoenix-main-row">
+ 
+ 
+ <div class="phoenix-flash-badge">
+ <img src="https://cdn.shopify.com/s/files/1/0735/1821/9557/files/flashsale.png?v=1748331455" alt="flash sale" class="flashsale">
+ <div class="flash-sale-text1">
+ <div> Filter Systems Flash Sale- <span style="color:#FEB800!important">20% off</span></div>
+ 
+ </div>
+ </div>
+ 
+ 
+ <div class="phoenix-coupon-row">
+ <div class="phoenix-product-text">Use Code</div>
+ <div class="phoenix-coupon-box">
+ <span id="couponCode">SPRING20</span>
+ </div>
+ </div>
+ 
+ 
+ <div class="phoenix-countdown">
+ <div class="phoenix-time-unit">
+ <span class="phoenix-time-number" id="phoenix-days">00</span>
+ <span class="phoenix-time-label">Days</span>
+ </div>
+ <div class="phoenix-separator">:</div>
+ <div class="phoenix-time-unit">
+ <span class="phoenix-time-number" id="phoenix-hours">00</span>
+ <span class="phoenix-time-label">Hrs</span>
+ </div>
+ <div class="phoenix-separator">:</div>
+ <div class="phoenix-time-unit">
+ <span class="phoenix-time-number" id="phoenix-minutes">00</span>
+ <span class="phoenix-time-label">Min</span>
+ </div>
+ <div class="phoenix-separator">:</div>
+ <div class="phoenix-time-unit">
+ <span class="phoenix-time-number" id="phoenix-seconds">00</span>
+ <span class="phoenix-time-label">Sec</span>
+ </div>
+ </div>
+ 
+ 
+ <a href="https://phoenixwaterfilters.co.uk/products/the-phoenix-gravity-water-filter" class="phoenix-buy-now-btn1">Buy Now</a>
+ 
+ </div>
+ </div>
+</div>
+
+
+
+<script>
+ // Set countdown to June 2, 2025 at 23:59:59 BST (which is 22:59:59 UTC)
+ const endTime = new Date(Date.UTC(2025, 5, 2, 22, 59, 59)).getTime(); // Month is 0-indexed
+
+ function updatePhoenixCountdown() {
+ const now = new Date().getTime();
+ const timeLeft = endTime - now;
+
+ if (timeLeft > 0) {
+ const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+ const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+ const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+ const seconds = Math.floor((timeLeft / 1000) % 60);
+
+ document.getElementById("phoenix-days").textContent = days.toString().padStart(2, "0");
+ document.getElementById("phoenix-hours").textContent = hours.toString().padStart(2, "0");
+ document.getElementById("phoenix-minutes").textContent = minutes.toString().padStart(2, "0");
+ document.getElementById("phoenix-seconds").textContent = seconds.toString().padStart(2, "0");
+ } else {
+ document.querySelector(".phoenix-countdown").textContent = "Expired";
+ }
+ }
+
+ setInterval(updatePhoenixCountdown, 1000);
+ updatePhoenixCountdown();
+</script>
+
+
+
+
+
+
+</body>
+</html>
+</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-xfsvchy09af hide-on-desktop hide-on-tablet" data-id="ecom-xfsvchy09af" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core ecom-tde4wp688ed"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-t7x9tf6qat" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1"><style>
+ .xtwentyoff {
+ width: 3%;
+ }
+
+ .xflash-sale-text {
+ display: flex;
+ flex-direction: column;
+ margin-left: 6px;
+ }
+
+ .xlimit_stock {
+ font-size: 13px !important;
+ font-weight: normal;
+ color: #fff;
+ margin-top: 2px;
+ }
+
+ @media (max-width: 480px) {
+ .xlimit_stock {
+ font-size: 10px !important;
+ }
+ }
+
+ .xphoenix-footer-timer {
+ position: fixed !important;
+ bottom: 0 !important;
+ left: 0 !important;
+ width: 100% !important;
+ background: linear-gradient(135deg, #3968E6, #11214D) !important;
+ color: white !important;
+ padding: 8px 10px !important;
+ z-index: 1050 !important;
+ font-family: 'DM Sans', sans-serif !important;
+ }
+
+ .xphoenix-timer-container {
+ display: flex !important;
+ flex-direction: column;
+ align-items: center !important;
+ justify-content: center !important;
+ gap: 6px !important;
+ max-width: 100% !important;
+ overflow-x: auto !important;
+ scrollbar-width: none !important;
+ -ms-overflow-style: none !important;
+ }
+
+ .xphoenix-timer-container::-webkit-scrollbar {
+ display: none !important;
+ }
+
+ .xphoenix-main-row {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 12px;
+ flex-wrap: nowrap;
+ flex: 1;
+ }
+
+ .xphoenix-coupon-row {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ text-align: center;
+ gap: 8px;
+ }
+
+ .xphoenix-flash-badge {
+ display: flex !important;
+ align-items: center !important;
+ font-weight: 700 !important;
+ font-size: 14px !important;
+ color: #fff !important;
+ padding: 3px 6px !important;
+ border-radius: 4px !important;
+ white-space: nowrap !important;
+ }
+
+ .xphoenix-product-text {
+ font-size: 14px !important;
+ font-weight: 500 !important;
+ white-space: nowrap;
+ }
+
+ .xphoenix-countdown {
+ display: flex !important;
+ align-items: center !important;
+ gap: 2px !important;
+ font-size: 14px !important;
+ white-space: nowrap !important;
+ }
+
+ .xphoenix-time-unit {
+ text-align: center !important;
+ display: flex !important;
+ flex-direction: column !important;
+ align-items: center !important;
+ min-width: 30px !important;
+ }
+
+ .xphoenix-time-number {
+ font-weight: bold !important;
+ font-size: 14px !important;
+ background-color: rgba(255, 255, 255, 0.2) !important;
+ border-radius: 3px !important;
+ padding: 1px 3px !important;
+ min-width: 22px !important;
+ text-align: center !important;
+ }
+
+ .xphoenix-time-label {
+ font-size: 10px !important;
+ }
+
+ .xphoenix-separator {
+ font-weight: bold !important;
+ font-size: 14px !important;
+ margin: 0 -1px !important;
+ }
+
+ .xphoenix-buy-now-btn {
+ background-color: #FEB800 !important;
+ color: #000 !important;
+ padding: 10px 15px;
+ font-weight: 500 !important;
+ text-decoration: none;
+ border-radius: 4px !important;
+ transition: background 0.3s ease !important;
+ white-space: nowrap !important;
+ font-size: 14px !important;
+ }
+
+ .xphoenix-buy-now-btn:hover {
+ background-color: #06d6a0 !important;
+ }
+
+ .xphoenix-coupon-box {
+ border: 2px dashed #ccc;
+ padding: 6px 12px;
+ border-radius: 6px;
+ color: #FEB800;
+ font-weight: bold;
+ letter-spacing: 1px;
+ background: transparent;
+ }
+
+ #xcouponCode {
+ color: #FEB800;
+ }
+
+ /* Mobile optimizations */
+ @media (max-width: 768px) {
+ .xphoenix-footer-timer {
+ padding: 6px 8px !important;
+ }
+
+ .xphoenix-flash-badge {
+ font-size: 12px !important;
+ padding: 2px 4px !important;
+ }
+
+ .xphoenix-product-text {
+ font-size: 11px !important;
+ }
+
+ .xphoenix-time-unit {
+ min-width: 24px !important;
+ }
+
+ .xphoenix-time-number {
+ font-size: 12px !important;
+ min-width: 18px !important;
+ }
+
+ .xphoenix-time-label {
+ font-size: 8px !important;
+ }
+
+ .xphoenix-buy-now-btn {
+ font-size: 12px !important;
+ padding: 3px 8px !important;
+ }
+ }
+
+ @media (max-width: 480px) {
+ .xphoenix-footer-timer {
+ padding: 5px 6px !important;
+ margin-bottom: 56px !important;
+ }
+
+ .xphoenix-main-row {
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+
+ .xphoenix-coupon-row {
+ display: flex;
+ margin-top: 4px;
+ }
+
+ .xphoenix-product-text {
+ font-size: 10px !important;
+ }
+
+ .xphoenix-coupon-box {
+ font-size: 12px;
+ margin-top: 2px;
+ }
+
+ .xflashsale {
+ width: 18% !important;
+ }
+
+ .xlimit_stock {
+ font-size: 8px !important;
+ }
+ }
+</style>
+
+<div class="xphoenix-footer-timer">
+ <div class="xphoenix-timer-container">
+ <div class="xphoenix-main-row">
+
+ <div class="xphoenix-flash-badge">
+ <img src="https://cdn.shopify.com/s/files/1/0735/1821/9557/files/flashsale.png?v=1748331455" alt="flash sale" class="xflashsale">
+ <div class="xflash-sale-text">
+ <div> Filter Systems Flash Sale- <span style="color:#FEB800">20% off</span></div>
+ </div>
+ </div>
+
+ <div class="xphoenix-countdown">
+ <div class="xphoenix-time-unit">
+ <span class="xphoenix-time-number" id="xphoenix-days">00</span>
+ <span class="xphoenix-time-label">Days</span>
+ </div>
+ <div class="xphoenix-separator">:</div>
+ <div class="xphoenix-time-unit">
+ <span class="xphoenix-time-number" id="xphoenix-hours">00</span>
+ <span class="xphoenix-time-label">Hrs</span>
+ </div>
+ <div class="xphoenix-separator">:</div>
+ <div class="xphoenix-time-unit">
+ <span class="xphoenix-time-number" id="xphoenix-minutes">00</span>
+ <span class="xphoenix-time-label">Min</span>
+ </div>
+ <div class="xphoenix-separator">:</div>
+ <div class="xphoenix-time-unit">
+ <span class="xphoenix-time-number" id="xphoenix-seconds">00</span>
+ <span class="xphoenix-time-label">Sec</span>
+ </div>
+ </div>
+
+ 
+ </div>
+
+ <div class="xphoenix-coupon-row">
+ <a href="https://phoenixwaterfilters.co.uk/products/the-phoenix-gravity-water-filter" class="xphoenix-buy-now-btn">Buy Now</a>
+ <div class="xphoenix-product-text">Use Code</div>
+ <div class="xphoenix-coupon-box">
+ <span id="xcouponCode">SPRING20</span>
+ </div>
+ </div>
+ </div>
+</div>
+
+<script>
+ // Convert UK end time to UTC timestamp
+ const xendTime = new Date(
+ new Date("June 2, 2025 23:59:59").toLocaleString("en-GB", { timeZone: "Europe/London" })
+ ).getTime();
+
+ function xupdatePhoenixCountdown() {
+ const xnow = new Date().getTime();
+ const xtimeLeft = xendTime - xnow;
+
+ if (xtimeLeft > 0) {
+ const xdays = Math.floor(xtimeLeft / (1000 * 60 * 60 * 24));
+ const xhours = Math.floor((xtimeLeft / (1000 * 60 * 60)) % 24);
+ const xminutes = Math.floor((xtimeLeft / (1000 * 60)) % 60);
+ const xseconds = Math.floor((xtimeLeft / 1000) % 60);
+
+ document.getElementById("xphoenix-days").textContent = xdays.toString().padStart(2, "0");
+ document.getElementById("xphoenix-hours").textContent = xhours.toString().padStart(2, "0");
+ document.getElementById("xphoenix-minutes").textContent = xminutes.toString().padStart(2, "0");
+ document.getElementById("xphoenix-seconds").textContent = xseconds.toString().padStart(2, "0");
+ }
+ }
+
+ setInterval(xupdatePhoenixCountdown, 1000);
+ xupdatePhoenixCountdown();
+</script>
+
+</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "announcement bar",
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=section&id=preview-template-section&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ],
+ "locales": {
+ "en": {}
+ }
+}
+{% endschema %}

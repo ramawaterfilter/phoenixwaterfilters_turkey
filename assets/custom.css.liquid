@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+{{ settings.global_css }}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  {{ settings.desktop_css }}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  {{ settings.tablet_mobile_css }}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  {{ settings.tablet_css }}
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+  {{ settings.mobile_css }}
+}
+
+#MainContent {
+  transform: none !important;
+}
+
+/* .set_height_m {
+    height: 0px !important;
+    overflow: hidden;
+    visiblity: hidden;
+    padding: 0;
+    opacity: 0;
+} */
+
+.t4s-mini_cart__items .set_height_m {
+    height: auto !important;
+    overflow: visible;
+    visiblity: visible;
+    padding: 20px;
+    opacity: 1;
+}
+
+body .cartridge-label input:checked + .custom-checkbox,body .size-option input:checked + .size-box .custom-checkbox{background: #2F2953 !important;border: solid 2px #2F2953 !important;box-shadow:0px 0px 0px 2px #fff inset;}
+body .cartridge-label input:checked+ .custom-checkbox svg,.size-option input:checked + .size-box .custom-checkbox svg,body .size-option input:checked + .size-box .custom-checkbox svg{display: none !important;}
+
+body .custom-checkbox{display:none !important;}
+body .size-box{padding-left:22px !important;}
+
+.cartridge-options_box .cartridge-label label{padding-top:0 !important;}
+.size-option input:checked+.size-box{background: #2F2953 !important;}
+.size-option input:checked+.size-box span{color:#fff !important;}
+.size-option input:checked+.size-box .variant-info,.size-option input:checked+.size-box .variant-info *{color:#fff !important;}
+.cartridge-label:has(input[type="radio"]:checked) {
+  background: #2F2953 !important;
+}
+.cartridge-label:has(input[type="checkbox"]:checked) {
+  background: #2F2953 !important;
+}
+.cartridge-label:has(input[type="radio"]:checked) .variant-info,.cartridge-label:has(input[type="radio"]:checked) .variant-info *,.cartridge-label:has(input[type="checkbox"]:checked) .variant-info,.cartridge-label:has(input[type="checkbox"]:checked) .variant-info *{color:#fff !important;}
+.latest_product_listOptional .cartridge-options_box .cartridge-label{padding-left:20px;}
+.choose_your_stand_optional:nth-child(3) .variant-info{width:110px;}
+
+
+
+
+
+
+
+
+
+
+
+
