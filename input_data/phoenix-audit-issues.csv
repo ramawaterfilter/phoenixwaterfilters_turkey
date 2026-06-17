@@ -1,0 +1,106 @@
+﻿id,market,area,issue,detail,severity,source,owner,status,note
+US-01,US,Website/Shopify,"Consolidate dual Shopify themes (t/37 → t/46) so meta, schema & OG unify site-wide",Root cause of ~6 other issues,P0,US #1,Vijaykumar,in progress,Parent of several PDP/SEO fixes
+US-02,US,SEO,Add JSON-LD Product/Offer schema to flagship PDP,113K impr @1.19% CTR; schema can lift CTR 20–40%,P1,US #1,Vijaykumar,in progress,
+US-03,US,SEO,Landing page: Best Gravity Water Filter System (head term),'gravity water filter' stuck pos 11.4,P2,US #1,Vijaykumar,in progress,
+US-04,US,Content/Blog,Add mid-article CTA cards to top 10 blog posts,Top blogs earn $0 — no inline CTAs,P2,US #1,Vijaykumar,in progress,Slipped once → 15-Jun · Blocker: Agency capacity · Revised due 2026-06-15
+US-05,US,PDP/UX,Reorder PDP 'How It Works' steps; remove duplicate Step 2,Wrong order damaged credibility,P1,US #1,Vijaykumar,fixed,Verified live
+US-06,US,CRO,Sticky mobile Add-to-Cart bar on PDP,Highest-ROI mobile fix; was 'ignore',P1,US #1,Vijaykumar,open,Recovered from 'ignore' list · Blocker: De-prioritised earlier
+US-07,US,CRO,One-Time / Subscribe & Save 5% toggle on PDP,Subscription hidden = lost recurring rev,P2,US #1,Vijaykumar,in progress,
+US-08,US,CRO,Exit-intent email capture with zip-contaminant hook,94% don't convert first visit; no capture,P1,US #1,Vijaykumar,open,Blocker: Awaiting offer/copy approval · Waiting for input
+US-09,US,Legal/Compliance,Add US business address to site footer (all pages),Trust + marketplace compliance risk,P1,US #1,Vijaykumar,open,Compliance · Blocked: Awaiting address from Finance
+US-10,US,Website/Shopify,Footnote/asterisk on 99.99% contaminant claims (PDP),Unqualified claims = FTC/legal exposure,P0,US #1,Vijaykumar,in progress,High legal priority
+US-11,US,Customer Support,Reply to public teak-stand staining review,Unanswered negative review deters buyers,P2,US #1,Vijaykumar,fixed,Closed 1 day late
+US-12,US,Website/Shopify,Fix cloned '705 reviews' count on accessory cards,Cloned counts erode trust,P2,US #1,Vijaykumar,fixed,
+US-13,US,Google Ads,Reallocate Google Ads to PMax winners; cap losing terms,Wasted spend on non-converting terms,P2,US #1,Vijaykumar,in progress,
+US-14,US,Meta Ads,Launch 3 UGC creatives; pause 2 fatigued ads,Creative fatigue dragging ROAS,P2,US #1,Vijaykumar,in progress,
+US-15,US,Amazon,Fix Amazon listing: A+ content + AISI 304 spec + gallons,Spec errors hurt CR & compliance,P2,US #1,Vijaykumar,in progress,
+US-16,US,Walmart,Resolve Walmart listing-quality flags + buy-box,Low quality limits visibility,P2,US #1,Vijaykumar,in progress,
+US-17,US,eBay,"Optimise eBay listings (titles, specifics, promoted)",Revisit next quarter,P3,US #1,Vijaykumar,muted,Deferred by CEO · Blocker: Channel de-prioritised this quarter
+US-18,US,Inventory/3PL,Replenish best-seller (1.5G) — 3-week cover pre-promo,Stockout in sale loses peak revenue,P1,US #1,Vijaykumar,in progress,
+US-19,US,Inventory/3PL,Resolve 3PL mis-ship backlog (12 orders),Mis-ships drive bad reviews + CS load,P2,US #1,Vijaykumar,open,Blocked: Awaiting 3PL credit
+US-20,US,Customer Support,Daily CS queue clear-down + escalation triage,Backlog hurts CSAT,P2,US #1,Vijaykumar,in progress,
+US-21,US,Reporting/Analytics,"Send daily executive flash to Ramesh (sales, CVR, spend, blockers)",CEO needs daily execution visibility,P1,US #1,Vijaykumar,in progress,
+US-22,US,Website/Shopify,48-hour rolling countdown timer under WELLNESS SALE,Was 'ignore'; weak urgency lever,P3,US #1,Vijaykumar,open,Recovered from 'ignore' list · Blocker: Dismissed in earlier audit
+US-23,US,Website/Shopify,Relabel 'Most Popular' (1.5G) to 'Best Value',Folded into redesign,P3,US #1,Vijaykumar,wontfix,See US-01 · Blocker: Superseded by full PDP redesign
+US-24,US,Reporting/Analytics,"Weekly e-commerce scorecard (channel rev, CVR, AOV, ROAS)",CEO wants consistent weekly numbers,P2,US #1,Vijaykumar,in progress,
+US-25,US,SEO,Unblock policy pages from robots.txt,Robots-blocked pages hurt trust,P2,US #1,Vijaykumar,fixed,
+US-26,US,Website/Shopify,Replace Reviews-page OG image 'UK.jpg' with US image,Wrong-region OG confuses US sharing,P3,US #1,Vijaykumar,in progress,
+PT-01,UK,PDP/UX,POSTreat PDP revamp — rebuild /products/postreat-fluoride-remover,"2,254 impr / 1 click, pos 14.6 — stranded",P1,UK SEO #1 / POSTreat,Divya,in progress,Owner: Divya — due 15-Jun
+PT-02,France,PDP/UX,Create NEW POSTreat PDP (France launch),Extend fluoride range to FR market,P1,FR launch / POSTreat,Rishi,open,ASSUMPTION: treated as FR launch — confirm if UK rebuild
+FR-01,France,Legal/Compliance,Add EU 14-day right of withdrawal; remove unlawful 'unused' condition,Consumer-law exposure; open across audits #1-4,P0,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-02,France,Legal/Compliance,Restore SIRET / legal entity in T&Cs (§21 truncated),Legal disclosure requirement,P0,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-03,France,Legal/Compliance,GDPR consent banner consistent on all pages,GDPR; banner was on KokoCarb only,P0,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-04,France,Website/Shopify,"Publish theme globally — legal/FAQ pages still on old theme (broken cart, UK phone)",Broken buy path on legal pages,P0,FR audit · legal/CRO,Rishi,open,Carried; root-cause fix
+FR-05,France,Website/Shopify,Remove Calendly 'dealership-uk-clone' link in footer,UK-clone artefact on FR site,P2,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-06,France,Content/Blog,Translate lab-report PDF (English-only) to French,English-only lab doc on FR site,P3,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-11,France,CRO,Offer-first layout on money pages (fix 80%+ scroll drop),Most traffic never sees the offer,P1,FR audit · legal/CRO,Rishi,open,Carried; overlaps PDP redesign (FR-43)
+FR-12,France,Technical SEO,Fix insertAdjacentHTML JS error in buy path,Breaks buy component for many sessions,P0,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-16,France,Website/Shopify,"Surface KokoCarb subscription toggle (-5%, cancel anytime)",Highest-value missed conversion (LTV),P1,FR audit · legal/CRO,Rishi,open,Carried from prior FR audit
+FR-30,France,Technical SEO,Disable unused Shopify Markets locales (keep France only),30+ /en//es//nl URLs polluting the index,P1,FR SEO · P1-01,Rishi,open,
+FR-31,France,Localisation/FR,Remove translator's note from cartridge PDP,« Note du traducteur » visible in production,P1,FR SEO · P1-02,Rishi,open,
+FR-32,France,Legal/Compliance,Fix NAP — one French email + French phone (remove UK +44),Two emails + UK phone on FR site = trust loss,P1,FR SEO · P1-03,Rishi,open,
+FR-33,France,Technical SEO,"robots.txt blocks + de-index sensitive URLs (account/orders, VAT invoices)",Customer order / VAT-invoice URLs indexed = data exposure,P0,FR SEO · P1-04,Rishi,open,
+FR-34,France,Technical SEO,"Fix URL typos (/pricvacy-policy, /refund-polycy-new) + 301",Typo policy URLs live & indexable,P2,FR SEO · P1-05,Rishi,open,
+FR-35,France,Localisation/FR,Fix visible French grammar errors (« Aux France » etc.),Broken French live on key pages,P1,FR SEO · P1-06,Rishi,open,
+FR-36,France,Technical SEO,Lazy-load Judge.me + Wistia facade (mobile INP 301ms fails CWV),Core Web Vitals failure on mobile,P1,FR SEO · P1-07,Rishi,open,
+FR-37,France,SEO,"Rewrite titles + meta on top 10 pages (PFAS, sans plastique, 8L/12L)",Generic titles; no modifiers,P2,FR SEO · P2-01,Rishi,open,
+FR-38,France,Technical SEO,"Deploy full schema suite (Product, FAQ, Breadcrumb, Org, Review)",No FAQ/Breadcrumb/Review schema,P2,FR SEO · P2-02,Rishi,open,
+FR-39,France,Technical SEO,Consolidate duplicate PDPs (EN slugs → 301 to FR),Five URLs for one product family,P2,FR SEO · P2-03,Rishi,open,
+FR-40,France,SEO,Migrate product/page slugs to French (see Slug Migrations),EN slugs on a FR store,P2,FR SEO · P2-04,Rishi,open,
+FR-41,France,Content/Blog,"Publish gravity-filtration hub page (/guide-filtration-gravite, 3,500 words)",98% branded traffic; no non-brand hub,P2,FR SEO · P2-05,Rishi,open,
+FR-42,France,Content/Blog,Publish Phoenix Gravity vs Berkey comparative page,'alternative berkey france' demand,P2,FR SEO · P2-06,Rishi,open,
+FR-43,France,CRO,PDP redesign — answer-first hero + trust strip (lab report + badges),"Encompasses sticky ATC, gallery trim, reviews-in-buy-box",P2,FR SEO · P2-07,Rishi,open,
+FR-44,France,Technical SEO,Fix desktop CLS (0.22 fail) — reserve image/badge dimensions,Layout shift fails CWV on desktop,P2,FR SEO · P2-08,Rishi,open,
+FR-45,France,Content/Blog,Editorial cluster — PFAS & tap water France,"Most newsworthy 2026 angle (2,900/mo)",P2,FR SEO · P3-01,Rishi,open,
+FR-46,France,Content/Blog,"Editorial cluster — water quality France (chlorine, limescale, lead, nitrates)",,P3,FR SEO · P3-02,Rishi,open,
+FR-47,France,Site Architecture,Internal-linking restructure (3 silos + anchors),Money pages isolated,P2,FR SEO · P3-03,Rishi,open,
+FR-48,France,Technical SEO,Add FAQ to top 5 PDPs (4-6 native-FR Q&A each),,P3,FR SEO · P3-04,Rishi,open,
+FR-49,France,Content/Blog,"Digital PR — PFAS pitch, 8 outlets (lab report exclusive)",Authority + referring domains,P3,FR SEO · P3-05,Rishi,open,
+FR-50,France,Technical SEO,Deploy llms.txt + FR entity page (AI search),,P3,FR SEO · P3-06,Rishi,open,
+FR-51,France,CRO,A/B test PDP hero + bundle pricing,,P3,FR SEO · P3-07,Rishi,open,
+FR-52,France,Content/Blog,"Comparative cluster (5 pages: Brita, Berkefeld, Weeplow, LaVie)",,P3,FR SEO · P4-01,Rishi,open,
+FR-53,France,Website/Shopify,Build interactive PFAS map of France (linkable asset),Passive backlink magnet,P3,FR SEO · P4-02,Rishi,open,
+FR-54,France,Website/Shopify,Build 'bottled vs filtered' cost calculator (JS tool),Embeddable widget,P3,FR SEO · P4-03,Rishi,open,
+FR-55,France,Content/Blog,"Build NGO partnerships (Générations Cobayes, Surfrider…)",,P3,FR SEO · P4-04,Rishi,open,
+FR-56,France,Reporting/Analytics,Set up AI-search monitoring (Otterly / Profound / Peec),,P3,FR SEO · P4-05,Rishi,open,
+UK-01,UK,Technical SEO,Fix £0.00 strikethrough pricing in listings & Merchant feed,'£0.00 £199.00' live; Merchant disapprovals,P0,UK SEO #1,Anandraj,in progress,
+UK-02,UK,Domain/Hosting,Decide .com domain — 301 to .co.uk or differentiate,.com has different claims; authority split,P1,UK SEO #1,Anandraj,open,
+UK-03,UK,Technical SEO,Confirm canonicals over UTM/variant URLs,?variant=…utm… URLs indexed,P1,UK SEO #1,Anandraj,open,
+UK-04,UK,Content/Blog,Kill 'Winter Sale 26% OFF' banner; noindex the page,June promo still live from winter,P2,UK SEO #1,Anandraj,open,
+UK-05,UK,Technical SEO,Deploy review-snippet schema sitewide,REVIEW_SNIPPET only 472 impr,P1,UK SEO #1,Anandraj,open,
+UK-06,UK,Website/Shopify,Roll new footer template to all inner pages,Footer hasn't propagated from homepage,P2,UK SEO #1,Anandraj,open,
+UK-07,UK,SEO,Fix homepage title typo 'Clean & healthy Water',Title-case error on homepage,P2,UK SEO #1,Anandraj,open,
+UK-08,UK,Technical SEO,"301 duplicate product URLs (flagship ×4, KokoCarb, typos)",…-1/-copy/-filters/-6-litre dupes,P1,UK SEO #1,Anandraj,open,
+UK-09,UK,Site Architecture,Consolidate collection sprawl (6+ share a title),/all /all-collections /all-1 self-compete,P2,UK SEO #1,Anandraj,open,
+UK-10,UK,Site Architecture,Build the gravity collection hub,No collection ranks head terms; flagship does category duty,P1,UK SEO #1,Anandraj,open,
+UK-11,UK,SEO,Rewrite quick-win titles/metas (pos 4–10),"gravity 7.2, stainless 5.2, gravity-uk 7.5",P1,UK SEO #1,Anandraj,in progress,
+UK-12,UK,SEO,"Fix 'best gravity water filter uk' snippet (pos 4.8, 0 clk)",Ranks pos 4.8 with zero clicks,P2,UK SEO #1,Anandraj,open,
+UK-13,UK,SEO,Resolve 'stainless steel water filter' cannibalisation,Accessory page outranks flagship term,P1,UK SEO #1,Anandraj,open,
+UK-14,UK,Technical SEO,De-index test/preview pages,"product-test-page, _preview indexed",P3,UK SEO #1,Anandraj,open,
+UK-15,UK,Technical SEO,"Merge duplicate utility pages (faq/faqs, contact/contact-us)",Both variants live & indexable,P3,UK SEO #1,Anandraj,open,
+UK-16,UK,SEO,Improve generic image alt text & filenames,alt='water-filters' on products,P3,UK SEO #1,Anandraj,open,
+UK-17,UK,Technical SEO,Review US-impression geo-targeting / hreflang,"US 13,379 impr 0.82% CTR drags blended",P2,UK SEO #1,Anandraj,open,
+UK-18,UK,Content/Blog,Build /fluoride-removal landing page (KokoCarb + POSTreat),"139 fluoride queries ~2,537 impr stranded",P1,UK SEO #1,Anandraj,open,
+UK-19,UK,Content/Blog,Build postcode-area fluoride checker (interactive),Engagement hook for fluoride intent,P2,UK SEO #1,Anandraj,open,
+UK-20,UK,PDP/UX,Rebuild KokoCarb page + subscribe-and-save,"Highest-LTV SKU, ~0 organic",P1,UK SEO #1,Anandraj,open,
+UK-21,UK,Content/Blog,Publish plastic-free / microplastics content,171 queries pos 9.1; converts 3–7×,P1,UK SEO #1,Anandraj,open,
+UK-22,UK,Content/Blog,Publish 'best gravity water filter UK' buyer's guide,Commercial-investigation demand pg 2,P2,UK SEO #1,Anandraj,open,
+UK-23,UK,SEO,Optimise generic cartridge terms on-page,'carbon cartridges…' pos 11.3 / 0 clk,P2,UK SEO #1,Anandraj,open,
+UK-24,UK,Site Architecture,Roll out 4-tier internal-linking map,Money pages isolated; flagship absorbs,P2,UK SEO #1,Anandraj,open,
+UK-25,UK,Content/Blog,Create comparison / 'alternative' content,'Berkey alternative UK' demand,P2,UK SEO #1,Anandraj,open,
+UK-26,UK,Legal/Compliance,Consolidate claims & certifications (.com align),'1978/40+/50 years' & '99.9/99.99%' vary,P2,UK SEO #1,Anandraj,open,
+UK-27,UK,Technical SEO,Measure & fix Core Web Vitals (flagship + hub),"Flagged, not yet field-measured",P3,UK SEO #1,Anandraj,open,
+UK-28,UK,Reporting/Analytics,Stand up the measurement loop (GA4/GSC/Ads),Dashboard on sample data; no live loop,P2,UK SEO #1,Anandraj,open,
+UK-29,UK,Reporting/Analytics,Monitor AI-Overview / fan-out visibility,~226 conversational q / 0.3% CTR,P3,UK SEO #1,Anandraj,open,
+FR-57,France,Reporting/Analytics,KoKoCarb — conversion tracking pre-flight: verify GA4 + Google Ads purchase tag fires on /thank-you with value & SKU; confirm Meta CAPI + Pixel for KoKoCarb add-to-cart/purchase,Bad tracking would waste the KoKoCarb test budget,P1,FR Brief §07 Step 0,Rishi,open,Prereq for FR-58 / FR-59
+FR-58,France,Google Ads,"Launch KoKoCarb Google: Campaign A Search·Refill Intent, B PMax·Refill Feed, C DSA Fallback — enable all three simultaneously",+€10–14k/mo incremental at ~4.4× blended,P1,FR Brief §04 / §07 Steps 1–4,Rishi,open,Centrepiece of the June brief
+FR-59,France,Meta Ads,"Launch KoKoCarb Meta: Campaign A Past-Buyer Retargeting, B LAL Cold (test)",Layers paid onto the proven 33-order organic demand,P1,FR Brief §07 (Meta Steps 1–2),Rishi,open,
+FR-60,France,CRO,"Build KoKoCarb landing page — Shopify section structure (refill value, bundle economics, subscribe CTA)",Conversion surface for the refill campaigns,P1,FR Brief §07 (LP build),Rishi,open,
+FR-61,France,Google Ads,"Brand SR France — impression share 12% → 50%: raise daily budget ~€39 → ~€160, lift tCPA/tROAS bid signal, add 'Phoenix Brand | France | SR | NEW' ad-group variants",+€19.8k/mo — closes ~95% of the ROAS gap; flagged 3 briefs running,P0,FR Brief §05 #2 · §02,Rishi,open,Non-negotiable — single largest mathematical unlock
+FR-62,France,Google Ads,"Pause DATMA-NT-CHAN-LUCK, DATNA-VIPPRO, DATMA-THANG PST (Thai/Indonesian gambling terms); audit account user access for unknown emails; review 90-day change history",€129/mo recovered + possible account-compromise risk closed,P0,FR Brief §05 #3 · §02,Rishi,open,Possible compromised access — treat as a security incident
+FR-63,France,Google Ads,Diagnose PMax Remarketing decline (4.62× → 3.02×): review audience-signal age; GA4 first- vs last-touch decomposition (is Meta UGC creating the demand?); run a 20% budget-reduction test reallocated to Brand SR; refresh customer-match audiences,€2.7k/mo defensive — PMax is 79% of Google spend,P1,FR Brief §05 #4 · §07,Rishi,open,
+FR-64,France,Meta Ads,Kill Static_BasicFilterVsPhoenixFilter — Copy (€133 @ 0 conv); brief one new July static iterating the BasicFilter visual-proof concept (dye-test reframing / time-to-clear / flow-rate),€130+/mo recovered + creative pipeline,P2,FR Brief §05 #5,Rishi,open,"Iterate winners, don't duplicate them"
+FR-65,France,Google Ads,Upload the Wave 1 negative keyword lists (never uploaded),Stops wasted match-type spend,P2,FR Brief §02 (carryover),Rishi,open,Carryover from the 22 May refresh
+FR-66,France,Google Ads,"Rebuild Non-Brand SR around 'polluants éternels' / PFAS (paused, never rebuilt)",Captures high-intent French PFAS demand,P2,FR Brief §02 (carryover),Rishi,open,Carryover
+FR-67,France,Google Ads,Belgium Brand Search arbitrage — re-scale the 8.20× opportunity (paused outright instead of scaled),8.20× hidden-gem ROAS currently offline,P3,FR Brief §02 (carryover),Rishi,open,Carryover — was a 9.33× opportunity
+FR-68,France,CRO,Build the subscription page + 'Plus jamais y penser' creative variant (not built),Recurring-revenue surface for the refill cycle,P3,FR Brief §02 (carryover),Rishi,open,Carryover
