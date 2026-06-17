@@ -1,0 +1,1 @@
+if(window.Shopify&&window.Shopify.theme&&window.Shopify.theme.id){const i=new URL(window.location);i.searchParams.set("preview_theme_id",window.Shopify.theme.id),window.history.pushState({},"",i)}

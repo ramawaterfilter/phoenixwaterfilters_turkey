@@ -1,0 +1,176 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2026-04-16 06:35:26
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=2.1" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=2.1" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-slider_js" src="https://cdn.ecomposer.app/vendors/js/ecom-swiper@11.0.5.js" ></script>
+{%capture section_id %}ecom-bloglar-blog{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-6853c0ffb880c6931402b1d2.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-6853c0ffb880c6931402b1d2.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="6853c0ffb880c6931402b1d2";
+ window.EComposer.TEMPLATE = {"title":"bloglar","type":"blog","slug":"ecom-bloglar","plan_id":4,"template_id":"6853c0ffb880c6931402b1d2"};
+ </script>
+<div class="ecom-builder" id="ecom-bloglar"><div class="ecom-sections" data-section-id="{{section.id}}">
+ {% unless tmp_block %}{% assign tmp_block = blog %}{% endunless %}
+ {%- capture article_selected -%}news/coconut-shell-based-carbon-black-water-filter-element{%- endcapture-%}
+ {% assign article_selected = article_selected | strip %}
+ {%- if request.page_type != 'article' and article_selected != blank -%}
+ {%- assign article = articles[article_selected]-%}
+ {% assign blog_handle = article_selected | split: '/' | first %}
+ {% assign blog = blogs[blog_handle] %}
+ {%- endif -%}
+ <section class="ecom-row ecom-core ecom-section ecom-lfm9w0woti8" data-id="ecom-lfm9w0woti8" style="z-index: inherit;"><div class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-qgga2x56ncp"><div class="core__column--wrapper" id="ecom-qgga2x56ncp"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-mg88uu8g3q"><div class="ecom__element ecom-element element__text ecom-type-deffault" section_id="ecom-lfm9w0woti8" deep="1"><div class="text-content ecom-html has-drop-cap-view-framed"><h1><b>Blog</b></h1></div></div></div> <div class="ecom-block ecom-core core__block ecom-uhw4gevffn"><div class="ecom-element ecom-shopify-elements ecom-shopify__blog" section_id="ecom-lfm9w0woti8" deep="1"><div class="ecom-shopify__blog-wrapper"><div class="ecom-shopify__blog-container" data-items-on-row="4">
+ {% if tmp_block == nil or tmp_block == blank %}
+ {% assign tmp_block = blog %}
+ {% endif %}
+ {%- capture stringBlog -%}{%- endcapture-%}
+ {% assign blog_handles = stringBlog | split: ',' %}
+ <div class="ecom-grid ecom-shopify__blog--posts" style="display:grid">
+ {% assign count = 1 %}
+ 
+ {% if blog != null %}
+ {%- capture limit -%}15{%-endcapture-%}
+ {% assign limit = limit | plus: 0 %}
+ {% assign tmp_article = article %}
+ 
+ {%- paginate blog.articles by limit -%}
+ {% for article in blog.articles %}
+ {% if count > limit %}{% break%}{% endif %}
+ {% assign count = count | plus: 1%}
+ 
+ <div class="ecom-shopify__blog--post">
+ 
+ 
+ <div class="ecom-shopify__blog--post-thumbnail--img">
+ <div class="ecom-shopify__blog--post-thumbnail ecom-image-align {% if article.image == blank %} ecom-shopify__blog--post-no-thumbnail{% endif %}">
+ {%- if article.image -%}
+ {%- liquid
+ assign featured_media_aspect_ratio = article.featured_media.aspect_ratio
+ if article.featured_media.aspect_ratio == nil
+ assign featured_media_aspect_ratio = 1
+ endif
+ -%}
+ <a style="text-decoration:none" href="{{article.url }}" class="ecom-shopify__blog--post-link ecom-image-default" data-blog-handle="{{article.handle}}">
+ <img srcset="
+ {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
+ {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
+ {%- if article.image.src.width >= 940 -%}{{ article.image.src | image_url: width: 940 }} 940w,{%- endif -%}
+ {%- if article.image.src.width >= 1066 -%}{{ article.image.src | image_url: width: 1066 }} 1066w{%- endif -%}"
+ src="{{ article.image.src | image_url: width: 533 }}"
+ sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+ alt="{{ article.image.src.alt | escape }}"
+ width="{{ article.image.width }}"
+ height="{{ article.image.height }}"
+ loading="lazy"
+ >
+ </a>
+ {%- endif -%}
+ </div>
+ </div>
+ <a href="{{article.url }}" class="ecom-shopify__blog--post-link" data-blog-handle="{{article.handle}}"><h2 class="ecom-shopify__blog--post-title">{{article.title}}</h2></a>
+ <div class="ecom-shopify__blog--post-excerpt">
+ {{ article.excerpt_or_content | strip_html | truncatewords: 33}}
+ </div>
+ 
+ 
+ </div>
+ {% endfor %}
+ {%- endpaginate -%}
+ {% else %}
+ <div>No posts yet!</div>
+ {% endif %}
+ 
+ </div>
+ 
+ {%- if blog -%}
+ {%- paginate blog.articles by limit -%}
+ {%- if paginate.pages > 1 -%}
+ <nav role="navigation">
+ <ol class="ecom-pagination-navigation ecom-collection__pagination-navigation">
+ {%- if paginate.previous -%}
+ <li class="ecom-prev" style="">
+ <a class="ecom-pagination-item ecom-paginate-action" data-get="{{ paginate.previous.url }}" href="{{ paginate.previous.url }}">
+ <span class="ecom-paginate-action--icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M166.5 424.5l-143.1-152c-4.375-4.625-6.562-10.56-6.562-16.5c0-5.938 2.188-11.88 6.562-16.5l143.1-152c9.125-9.625 24.31-10.03 33.93-.9375c9.688 9.125 10.03 24.38 .9375 33.94l-128.4 135.5l128.4 135.5c9.094 9.562 8.75 24.75-.9375 33.94C190.9 434.5 175.7 434.1 166.5 424.5z"></path></svg></span>
+ Prev
+ </a>
+ </li>
+ {%- else -%}
+ <li class="ecom-pagination-item ecom-prev ecom-paginate-action disabled" style="">
+ <span class="ecom-paginate-action--icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M166.5 424.5l-143.1-152c-4.375-4.625-6.562-10.56-6.562-16.5c0-5.938 2.188-11.88 6.562-16.5l143.1-152c9.125-9.625 24.31-10.03 33.93-.9375c9.688 9.125 10.03 24.38 .9375 33.94l-128.4 135.5l128.4 135.5c9.094 9.562 8.75 24.75-.9375 33.94C190.9 434.5 175.7 434.1 166.5 424.5z"></path></svg></span>
+ Prev
+ </li>
+ {%- endif -%}
+ {%- for part in paginate.parts -%}
+ {%- if part.is_link -%}
+ <li>
+ <a class="ecom-pagination-item" data-get="{{part.url}}" href="{{ part.url }}" title="{{ part.title }}">
+ {{ part.title }}
+ </a>
+ </li>
+ {%- else -%}
+ {%- if part.title == paginate.current_page -%}
+ <li class="ecom-pagination-item ecom-button-active" aria-current="page">
+ {{ part.title }}
+ </li>
+ {%- else -%}
+ <li class="ecom-pagination-item">
+ {{ part.title }}
+ </li>
+ {%- endif -%}
+ {%- endif -%}
+ {%- endfor -%}
+ {%- if paginate.next -%}
+ <li class="ecom-next" style="">
+ <a class="ecom-pagination-item ecom-paginate-action" data-get="{{ paginate.next.url }}" href="{{ paginate.next.url }}">
+ Next
+ <span class="ecom-paginate-action--icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg></span>
+ </a>
+ </li>
+ {%- else -%}
+ <li class="ecom-pagination-item ecom-next ecom-paginate-action ecom-collection__pagination--disabled" style="">
+ Next
+ <span class="ecom-paginate-action--icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg></span>
+ </li>
+ {%- endif -%}
+ </ol>
+ </nav>
+ {%- endif -%}
+ {%- endpaginate -%}
+ {%- endif -%}
+ 
+ {% unless tmp_block == nil and tmp_block == blank %}
+ {% assign blog = tmp_block %}
+ {% endunless %}
+ {% unless tmp_article == nil and tmp_article == blank %}
+ {% assign article = tmp_article %}
+ {% endunless %}
+ </div><div class="ecom-collection__product-loading ecom-dn"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="margin: auto; background: none; display: block; shape-rendering: auto;"><path d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#0a0a0a" stroke="none"><animateTransform attributeName="transform" type="rotate" dur="0.5434782608695652s" repeatCount="indefinite" keyTimes="0;1" values="0 50 51;360 50 51"></animateTransform></path></svg></div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "bloglar",
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/admin.shopify.com\/store\/zb05h6-m4\/apps\/ecomposer?open_builder=1&page=blog&id=6853c0ffb880c6931402b1d2&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ],
+ "locales": {}
+}
+{% endschema %}
