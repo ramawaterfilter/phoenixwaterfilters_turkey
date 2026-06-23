@@ -1,5 +1,5 @@
 {
-  "ts": "2026-06-23T16:44:55.563455+00:00",
+  "ts": "2026-06-23T21:05:03.815333+00:00",
   "results": [
     {
       "id": "US-GRAVITY-UP",
@@ -59,7 +59,7 @@
       "page": "uk_pdp_gravity",
       "result": "fail",
       "detail": "'£0.00' STILL PRESENT",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "UK-KOKO-PRICE0",
@@ -89,7 +89,7 @@
       "page": "uk_pdp_gravity",
       "result": "pass",
       "detail": "JSON-LD @type=Product found",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "UK-KOKO-SCHEMA",
