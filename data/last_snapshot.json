@@ -1,5 +1,5 @@
 {
-  "ts": "2026-06-22T21:38:36.411737+00:00",
+  "ts": "2026-06-23T14:01:03.791915+00:00",
   "results": [
     {
       "id": "US-GRAVITY-UP",
@@ -57,9 +57,9 @@
       "label": "£0.00 price gone — Gravity PDP",
       "task": "UK-01",
       "page": "uk_pdp_gravity",
-      "result": "fail",
-      "detail": "'£0.00' STILL PRESENT",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-KOKO-PRICE0",
@@ -87,9 +87,9 @@
       "label": "Product schema — Gravity PDP",
       "task": "UK-05",
       "page": "uk_pdp_gravity",
-      "result": "pass",
-      "detail": "JSON-LD @type=Product found",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-KOKO-SCHEMA",
