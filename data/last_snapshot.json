@@ -1,5 +1,5 @@
 {
-  "ts": "2026-06-25T20:51:35.070608+00:00",
+  "ts": "2026-06-26T12:29:03.455045+00:00",
   "results": [
     {
       "id": "US-GRAVITY-UP",
@@ -67,9 +67,9 @@
       "label": "£0.00 price gone — KokoCarb PDP",
       "task": "UK-01",
       "page": "uk_pdp_kokocarb",
-      "result": "fail",
-      "detail": "'£0.00' STILL PRESENT",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-POST-PRICE0",
@@ -77,9 +77,9 @@
       "label": "£0.00 price gone — POSTreat PDP",
       "task": "UK-01",
       "page": "uk_pdp_postreat",
-      "result": "fail",
-      "detail": "'£0.00' STILL PRESENT",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-GRAVITY-SCHEMA",
@@ -97,9 +97,9 @@
       "label": "Product schema — KokoCarb PDP",
       "task": "UK-05",
       "page": "uk_pdp_kokocarb",
-      "result": "pass",
-      "detail": "JSON-LD @type=Product found",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-TITLE-TYPO",
