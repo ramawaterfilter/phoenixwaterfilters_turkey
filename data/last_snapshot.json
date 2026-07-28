@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-28T07:09:50.494602+00:00",
+  "ts": "2026-07-28T10:09:57.605972+00:00",
   "results": [
     {
       "id": "US-GRAVITY-UP",
@@ -77,9 +77,9 @@
       "label": "£0.00 price gone — POSTreat PDP",
       "task": "UK-01",
       "page": "uk_pdp_postreat",
-      "result": "fail",
-      "detail": "'£0.00' STILL PRESENT",
-      "change": "same"
+      "result": "error",
+      "detail": "HTTP 503 while fetching page",
+      "change": "changed"
     },
     {
       "id": "UK-GRAVITY-SCHEMA",
