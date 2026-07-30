@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-30T09:59:43.986548+00:00",
+  "ts": "2026-07-30T15:30:13.838392+00:00",
   "results": [
     {
       "id": "US-GRAVITY-UP",
@@ -9,7 +9,7 @@
       "page": "us_pdp_gravity",
       "result": "pass",
       "detail": "HTTP 200 (expected [200])",
-      "change": "fixed"
+      "change": "same"
     },
     {
       "id": "US-CARBON-UP",
@@ -19,7 +19,7 @@
       "page": "us_pdp_carbon",
       "result": "pass",
       "detail": "HTTP 200 (expected [200])",
-      "change": "fixed"
+      "change": "same"
     },
     {
       "id": "US-FLUOR-UP",
@@ -39,7 +39,7 @@
       "page": "us_pdp_gravity",
       "result": "pass",
       "detail": "JSON-LD @type=Product found",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "US-ADDRESS",
@@ -49,7 +49,7 @@
       "page": "us_home",
       "result": "pass",
       "detail": "matched: '14400'",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "UK-GRAVITY-PRICE0",
@@ -59,7 +59,7 @@
       "page": "uk_pdp_gravity",
       "result": "fail",
       "detail": "'£0.00' STILL PRESENT",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "UK-KOKO-PRICE0",
@@ -89,7 +89,7 @@
       "page": "uk_pdp_gravity",
       "result": "pass",
       "detail": "JSON-LD @type=Product found",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "UK-KOKO-SCHEMA",
@@ -149,7 +149,7 @@
       "page": "fr_pdp_kokocarb",
       "result": "pass",
       "detail": "'Note du traducteur' absent",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "FR-POST-TRANSNOTE",
@@ -219,7 +219,7 @@
       "page": "fr_pdp_kokocarb",
       "result": "pass",
       "detail": "JSON-LD @type=Product found",
-      "change": "changed"
+      "change": "same"
     },
     {
       "id": "FR-TNC-WITHDRAW",
@@ -269,7 +269,7 @@
       "page": "fr_typo1",
       "result": "pass",
       "detail": "HTTP 404 (expected [301, 302, 404, 410])",
-      "change": "fixed"
+      "change": "same"
     },
     {
       "id": "FR-TYPO2",
@@ -279,7 +279,7 @@
       "page": "fr_typo2",
       "result": "pass",
       "detail": "HTTP 404 (expected [301, 302, 404, 410])",
-      "change": "fixed"
+      "change": "same"
     }
   ]
 }
